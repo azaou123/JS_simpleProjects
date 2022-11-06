@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(./bgi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin: 10%  40% 2%;
+    color: yellow;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+section {
+    margin-left: 2%;
+}
+
+section p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+section span {
+    font-size: 24px;
+    color: yellow;
+}
+
+section button {
+    margin-top: 30px;
+    border: 1px solid rgb(248, 229, 54);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+section button:hover{
+    color: white;
+    background-color: black;
+}
