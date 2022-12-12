@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    justify-content: center;
+    text-align: center ;
+    align-items: center;
+    background-color: rgb(119, 97, 24);
+}
+header{
+    margin: 2%;
+}
+
+section{
+    margin-bottom: 3%;
+}
+section input {
+    margin: 1%;
+    text-align: center;
+}
+section span{
+    padding: 1.5px;
+    color: rgb(255, 255, 255);
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    padding: auto 5px;
+}
+section span:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#container div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#container div li{
+    list-style :circle ;
+    margin-right: 2%;
+}
+#container div span{
+    margin-left: 10px;
+}
+#container div span{
+    color: rgb(7, 75, 7);
+}
+#container div span:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#container div span:last-child{
+    color: rgb(129, 16, 12);
+    cursor: pointer;
+}
